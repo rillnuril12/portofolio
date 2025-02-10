@@ -20,10 +20,16 @@
    <div class="container">
     <!-- --------------- HEADER --------------- -->
       <nav id="header">
-        <div class="nav-logo">
-            <p class="nav-name">Portfolio</p>
-            <span>.</span>
-        </div>
+        <div class="nav-logo" onclick="refreshPage()">
+    <p class="nav-name">Portfolio</p>
+    <span>.</span>
+</div>
+
+<script>
+    function refreshPage() {
+        location.reload(); // Reload halaman saat diklik
+    }
+</script>
         <div class="nav-menu" id="myNavMenu">
             <ul class="nav_menu_list">
                 <li class="nav_list">
