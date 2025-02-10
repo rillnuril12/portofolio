@@ -97,6 +97,7 @@ nav{
 }
 .nav-logo{
    position: relative;
+   cursor: pointer;
 }
 .nav-name{
     font-size: 30px;
