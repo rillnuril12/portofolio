@@ -115,3 +115,23 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive)
+
+/* ----- CERTIFICATES ----- */
+
+function openModal(imageSrc) {
+  const modal = document.getElementById("certificateModal");
+  const modalImg = document.getElementById("modalImage");
+
+  modal.style.display = "block";
+  modalImg.src = imageSrc;
+
+  document.querySelector(".close").onclick = function () {
+      modal.style.display = "none";
+  };
+
+  modal.onclick = function (event) {
+      if (event.target === modal) {
+          modal.style.display = "none";
+      }
+  };
+}
