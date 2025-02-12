@@ -733,6 +733,12 @@ footer{
     object-fit: cover;
 }
 
+.certificate-item p {
+    font-weight: 600;
+    color: var(--text-color-second);
+    margin-bottom: 10px;
+}
+
 /* ===================== MODAL STYLING ===================== */
 .modal {
     display: none;
