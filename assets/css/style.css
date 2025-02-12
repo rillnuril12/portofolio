@@ -697,6 +697,12 @@ footer{
     text-align: center;
 }
 
+.container-certificates h1{
+    font-weight: 600;
+    color: var(--text-color-second);
+    margin-bottom: 10px;
+}
+
 .certificate-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
