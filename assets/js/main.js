@@ -118,20 +118,20 @@ window.addEventListener('scroll', scrollActive)
 
 /* ----- CERTIFICATES ----- */
 
+const modal = document.getElementById('certificateModal');
+const modalImage = document.getElementById('modalImage');
+
 function openModal(imageSrc) {
-  const modal = document.getElementById("certificateModal");
-  const modalImg = document.getElementById("modalImage");
-
-  modal.style.display = "block";
-  modalImg.src = imageSrc;
-
-  document.querySelector(".close").onclick = function () {
-      modal.style.display = "none";
-  };
-
-  modal.onclick = function (event) {
-      if (event.target === modal) {
-          modal.style.display = "none";
-      }
-  };
+    modal.style.display = 'flex';
+    modalImage.src = imageSrc;
 }
+
+function closeModal() {
+    modal.style.display = 'none';
+}
+
+window.onclick = function(event) {
+    if (event.target === modal) {
+        closeModal();
+    }
+};
