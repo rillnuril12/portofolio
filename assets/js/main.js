@@ -118,6 +118,7 @@ window.addEventListener('scroll', scrollActive)
 
 /* ----- CERTIFICATES ----- */
 
+// Ambil elemen modal dan elemen gambar dalam modal
 const modal = document.getElementById('certificateModal');
 const modalImage = document.getElementById('modalImage');
 
@@ -135,3 +136,4 @@ window.onclick = function(event) {
         closeModal();
     }
 };
+
