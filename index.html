@@ -29,7 +29,7 @@
             function goToHome() {
                 window.location.href = "index.html"; // Ganti dengan halaman utama kamu
             }
-        </script>
+        </script>        
         <div class="nav-menu" id="myNavMenu">
             <ul class="nav_menu_list">
                 <li class="nav_list">
@@ -192,6 +192,36 @@
             </div>
           </div>
        </section>
+
+       <!-- ---------- CERTIFICATES ------------  -->
+
+        <section id="certificates" class="certificates">
+            <div class="container-certificates">
+                <h2>Sertifikat</h2>
+                <div class="certificate-list">
+                    <div class="certificate-item" onclick="openModal('/assets/images/Sertifikasi Vue JS.jpg')">
+                        <img src="/assets/images/Sertifikasi Vue JS.jpg" alt="Sertifikasi Vue JS">
+                        <p>VueJS + NPM</p>
+                    </div>
+                    <div class="certificate-item" onclick="openModal('/assets/images/Sertifikasi GIMP.jpg')">
+                        <img src="/assets/images/Sertifikasi GIMP.jpg" alt="Sertifikat GIMP">
+                        <p>GIMP - GNU Image Manipulation Program</p>
+                    </div>
+                    <div class="certificate-item" onclick="openModal('/assets/images/Sertifikasi UIUX.jpg')">
+                        <img src="/assets/images/Sertifikasi UIUX.jpg" alt="Sertifikat UIUX">
+                        <p>UI/UX Design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------- END CERTIFICATES ------------  -->
+    
+    <!-- ---------- MODAL POP UP ------------  -->
+    <div id="certificateModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>   
 
        <!-- -------------- CONTACT BOX ---------------- -->
 
