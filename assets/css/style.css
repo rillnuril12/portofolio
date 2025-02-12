@@ -701,7 +701,7 @@ footer{
 .container-certificates h1{
     font-weight: 600;
     color: var(--text-color-second);
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .certificate-list {
