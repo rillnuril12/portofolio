@@ -685,6 +685,11 @@ footer{
     }
 }
 
+.certificates {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
 .container-certificates {
     width: 90%;
     max-width: 1100px;
