@@ -698,7 +698,7 @@ footer{
     color: var(--text-color-second);
 }
 
-.container-certificates h1{
+.container-certificates h2{
     font-weight: 600;
     color: var(--text-color-second);
     margin-bottom: 10px;
