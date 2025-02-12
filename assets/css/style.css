@@ -698,10 +698,10 @@ footer{
     color: var(--text-color-second);
 }
 
-.container-certificates h2{
+.container-certificates h1{
     font-weight: 600;
     color: var(--text-color-second);
-    margin-bottom: 10px;
+    margin-bottom: 2rem;
 }
 
 .certificate-list {
